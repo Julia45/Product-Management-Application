@@ -1,23 +1,41 @@
-import logo from './logo.svg';
+
 import './App.css';
+import MainPage from './components/MainPage/MainPage'
+import CreateViewPage from "./components/CreateViewPage/CreateView"
+import EditView from './components/EditViewPage/EditView'
+import CartView from './components/CartViewPage/CartView'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Router>
+        <Switch>
+
+          <Route path="/" exact>
+            <MainPage />
+          </Route>
+
+          <Route path="/create-view">
+            <CreateViewPage />
+          </Route>
+
+          <Route path="/edit-view/:id">
+            <EditView />
+          </Route>
+
+          <Route path="/cart-view">
+            <CartView />
+          </Route>
+
+        </Switch>
+      </Router>
+
     </div>
   );
 }

@@ -1,0 +1,58 @@
+.AllProductsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.FilterInput {
+  padding: 5px 10px 5px 10px;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.fa-cart-arrow-down {
+  font-size: 28px;
+  margin-left: 2px;
+  display: inline;
+  vertical-align: middle;
+}
+
+@media (max-width: 356px) {
+  .FilterInput {
+    margin-bottom: 10px;
+  }
+
+  .fa-cart-arrow-down {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 299px) {
+  .fa-cart-arrow-down {
+    margin-left: 5px;
+  }
+}
+
+.SortingInput {
+  padding: 5px 10px 5px 10px;
+  font-size: 16px;
+  margin: 0px 5px 0px 5px;
+}
+
+.PadinationContainer {
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.PadinationContainer button {
+  margin: 10px;
+  background-color: lightskyblue;
+  border: 1px solid black;
+  outline: none;
+  padding: 5px 15px 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+}

@@ -1,0 +1,79 @@
+.ProductWrapper {
+  width: 280px;
+  box-shadow: 1px 1px 10px #afaeae;
+  padding: 15px;
+  margin: 11px;
+  text-align: left;
+}
+
+.ProductTitle {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px 0px 5px 0px;
+}
+
+.ProductDescription {
+  box-shadow: 1px 1px 10px lightgrey;
+  padding: 10px;
+  min-height: 75px;
+}
+
+.ProductPrice {
+  text-align: right;
+  font-size: 18px;
+  padding: 10px 0px 10px 10px;
+}
+
+.ProductWrapper button {
+  font-size: 17px;
+  background-color: #f7d088;
+  border: 1px solid black;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  margin: 0px 7px 0px 0px;
+
+}
+
+.ProductWrapper button:hover {
+  background-color: orange;
+  transition: background-color 0.3s ease;
+}
+
+.ProductButtons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fa-car {
+  font-size: 22px;
+  margin: 0px 10px 3px 0px;
+  color: grey;
+}
+
+.ProductTitleWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ChangeProductsNumber {
+  display: flex;
+}
+
+.ChangeProductsNumber button {
+  margin: 5px;
+}
+
+.ProductCount {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+@media (max-width: 307px) {
+  .ProductWrapper button {
+    margin: 4px 7px 0px 0px;
+  }
+}

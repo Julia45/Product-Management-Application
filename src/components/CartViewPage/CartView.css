@@ -1,0 +1,33 @@
+.AllProductsContainerCart {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 120px 0px 120px;
+  justify-content: center;
+}
+
+.AllProductsCalculation {
+  display: flex;
+  flex-direction: column;
+}
+
+.AllProductsNumber,
+.AllProductsPrice {
+  text-align: center;
+  padding: 5px 10px;
+}
+
+.CartGreetingContainer {
+  font-size: 21px;
+  display: flex;
+  justify-content: center;
+}
+
+.fa-hand-point-left {
+  font-size: 23px;
+  margin: 0px 10px 0px 5px;
+}
+
+.BackArrow {
+  text-align: left;
+  margin-right: 30px;
+}

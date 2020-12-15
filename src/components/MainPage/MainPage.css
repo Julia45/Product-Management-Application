@@ -1,0 +1,14 @@
+.CreateButton {
+  font-size: 17px;
+  background-color: lightskyblue;
+  border: 1px solid black;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  margin: 0px 7px 0px 0px;
+}
+
+@media (max-width: 299px) {
+  .CreateButton {
+    margin: 0px 7px 10px 0px;
+  }
+}

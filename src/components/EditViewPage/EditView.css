@@ -1,0 +1,22 @@
+.EditViewWrapper {
+  width: 270px;
+  margin: 0 auto;
+  box-shadow: 1px 1px 10px #afaeae;
+  padding: 5px;
+}
+
+.EditViewWrapper input {
+  padding: 5px 10px 5px 10px;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.EditViewWrapper button {
+  font-size: 17px;
+  background-color: lightgreen;
+  border: 1px solid black;
+  padding: 5px 10px 5px 10px;
+  width: 75%;
+  border-radius: 5px;
+  margin: 5px 0px 5px 0px;
+}
